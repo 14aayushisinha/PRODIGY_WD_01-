@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(163, 20, 20, 0.8); /* Transparent initially */
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #navbar ul li {
+    display: inline;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .section {
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .section h2 {
+    margin-top: 0;
+  }
